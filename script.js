@@ -11,7 +11,7 @@ const pacman = {
     height: 30,
     directionX: 0,
     directionY: 0,
-    speed: 3,
+    speed: 5,
 };
 
 let pellets = [];

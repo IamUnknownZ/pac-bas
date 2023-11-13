@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="row">
+        <header>ใช้ ปุ่มลูกศรเพื่อบังคับทิศทาง  <br>หากติด<span>บัค</span>ให้กดปุ่ม <span>คืนชีพ</span>เพื่อคืนชีพ ณ ด่านเดิม<br>หรือปุ่ม <span>รีเซ็ต</span>เพื่อเริ่มต้นใหม่</header>
+        <button id="reviveButton" class="btn">คืนชีพ</button>
+        <button id="resetButton" class="btn">รีเซ็ต</button>
+    </div>
     <div class="container">
         <div id="leaderboard" class="leaderboard-container">
             <ul id="leaderList"></ul>
             <span id="highestScoreDisplay">0</span>
         </div>
-        <canvas id="pacmanCanvas" width="400" height="400"></canvas>
-        <button id="reviveButton" class="btn">Revive Pac-Man</button>
-        <button id="resetButton" class="btn">Reset Game</button>
+        <canvas id="pacmanCanvas" width="800" height="800"></canvas>
+        
     </div>
     <script src="script.js"></script>
 </body>
